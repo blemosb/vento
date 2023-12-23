@@ -23,19 +23,24 @@ antes que a ilha desapareça nas profundezas do oceano.
 2. Para pilhar um tesouro
    Digite a letra "P" e o sistema irá verificar se naquele terreno tem tesouro a ser pilhado e, caso positivo, se sua mão tem cartas suficientes deste tesouro
    para permitir a pilhagem
-   Para mover um jogador, digite 'M'. Para sair, digite 'Q': M
-   Digite o número da linha (de 0 a 5): 2
-   Digite o número da coluna (de 0 a 5): 3
+3. Para trocar carta de tesouro
+   Digite a letra "T" e o jogo verificará se você está no mesmo terreno de outro aventureiro. Caso positivo o jogo perguntará qual carta de sua mão será trocada.
+4. Para vencer
+   Os aventureiros devem pilhar os 4 tesouros e dirigirem-se à pista de pouso e usar a carta fuga de helicóptero.
+5. Derrota
+   Você perde o jogo quando acontecer algum dos seguintes cenários: afundamento da pista de pouso ou se o nível de alagamento atingir seu nível máximo. 
+   
 
 ## Recursos Utilizados
 - Linguagem: Python
-- Bibliotecas: [Nome da Biblioteca]
+- Bibliotecas: [random]. Este jogo não utiliza nenhuma biblioteca visual.
 
 ## Como Executar o Jogo
 Instruções sobre como os usuários podem executar o jogo localmente.
 
 ## Contribuição
-Instruções para contribuições, se aplicável.
+O repositório é público. Todos sintam-se à vontade para contribuir com o deenvolvimento do jogo. Até o momento apenas a montagem do tabuleiro com as mãos dos jogadores e o baralho do jogo está finalizado.
 
 ## Licença
-Este projeto está sob a licença [tipo de licença].
+Este projeto está licenciado sob a Licença MIT - consulte o arquivo [LICENSE](LICENSE) para obter detalhes.
+
