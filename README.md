@@ -36,7 +36,7 @@ antes que a ilha desapareça nas profundezas do oceano.
 - Bibliotecas: [random]. Este jogo não utiliza nenhuma biblioteca visual.
 
 ## Como Executar o Jogo
-Instruções sobre como os usuários podem executar o jogo localmente.
+importar o projeto para a IDE de sua preferência e executá-lo.
 
 ## Contribuição
 O repositório é público. Todos sintam-se à vontade para contribuir com o deenvolvimento do jogo. Até o momento apenas a montagem do tabuleiro com as mãos dos jogadores e o baralho do jogo está finalizado.
