@@ -14,7 +14,7 @@ class CartaTesouro(Carta):
 
 class CartaEnchente(Carta):
     def __repr__(self):
-        return "   CARTA ENCHENTE   "
+        return "   CARTA ENCHENTE 💦"
 
 class CartaHelicoptero(Carta):
     def __repr__(self):
@@ -23,3 +23,7 @@ class CartaHelicoptero(Carta):
 class CartaSacoAreia(Carta):
     def __repr__(self):
         return "CARTA SACO DE AREIA💰"
+
+class CartaCoringa(Carta):
+    def __repr__(self):
+        return "   CARTA CORINGA🃏  "

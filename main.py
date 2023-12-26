@@ -25,7 +25,7 @@ Changelog
 |   `Labase <http://labase.selfip.org/>`_ - `NCE <https://portal.nce.ufrj.br>`_ - `UFRJ <https://ufrj.br/>`_.
 """
 import random
-from carta import CartaTesouro, CartaEnchente, CartaSacoAreia, CartaAlagamento, CartaHelicoptero
+from carta import CartaTesouro, CartaEnchente, CartaSacoAreia, CartaAlagamento, CartaHelicoptero, CartaCoringa
 from jogador import Explorador, Navegador, Piloto, Engenheiro, Mensageiro, Mergulhador
 from artefato import Artefato
 
@@ -274,6 +274,11 @@ def setup(numero_jogadores):
         for _ in range(5):
             baralho_tesouros.append(CartaTesouro(tesouro.nome))
         # ******************************************************************************
+
+        #acrescenta mais 4 cartas de coringa para o baralho de tesouros
+    for _ in range(4):
+        baralho_tesouros.append(CartaCoringa())
+        #*****************************************************************************
 
         # acrescentar 3 fugas de helicoptero no baralho de tesouro
     for _ in range(3):
