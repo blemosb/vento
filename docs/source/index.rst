@@ -10,3 +10,4 @@ Guia
    instalacao
    regras
    comojogar
+   licenca
