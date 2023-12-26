@@ -1,0 +1,18 @@
+# Arquivo de configuração do Read the Docs
+
+# Defina a versão do Python que você está usando (opcional)
+python:
+  version: 3.9
+
+# Especifica a versão do sistema operacional que você está usando (opcional)
+# Defina de acordo com a versão usada para o seu projeto
+build:
+  os_version: latest
+
+# Informa ao RTFD onde encontrar a documentação
+# Substitua 'doc' pelo diretório onde está sua documentação
+# Substitua 'main' pelo nome da branch do seu repositório onde está a documentação
+formats: all
+sphinx:
+  configuration: doc/conf.py
+  build_dir: doc/_build
