@@ -2,6 +2,5 @@
 
 # Pacotes e suas versões específicas (se necessário)
 sphinx_rtd_theme>=1.2
-sphinx==5.3.0
-readthedocs-sphinx-search==0.1.1
+
 
