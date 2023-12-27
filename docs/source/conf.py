@@ -15,7 +15,10 @@ release = '1.0'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
+    'sphinx_rtd_theme'
 ]
+
+html_theme = "sphinx_rtd_theme"
 
 templates_path = ['_templates']
 exclude_patterns = []
